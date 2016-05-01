@@ -14,6 +14,7 @@ positive for north, negative for south.
 Sample Usage
 ------------
 
+```javascript
 var tokyo = new SunriseSunset( 2011, 1, 19, 35+40/60, 139+45/60); 
 tokyo.sunriseUtcHours()      --> 21.8199 = 21:49 GMT
 tokyo.sunsetUtcHours()       --> 7.9070  = 07:54 GMT
@@ -22,6 +23,7 @@ tokyo.sunsetLocalHours(9)    --> 16.9070 = 16:54 at GMT+9
 tokyo.isDaylight(1.5)        --> true
 
 var losangeles = new SunriseSunset( 2011, 1, 19, 34.05, -118.233333333 );
+```
 
 License
 -------
